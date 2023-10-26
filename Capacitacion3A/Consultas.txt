@@ -1,0 +1,219 @@
+--Creamos la Base de Datos
+CREATE DATABASE Curso3A;
+
+--Usamos la Base de Datos 3A
+USE Curso3A;
+DROP DATABASE Curso3A
+--Creamos la Tabla Persona
+CREATE TABLE Persona(
+	ci INT PRIMARY KEY NOT NULL,
+	paterno VARCHAR(30),
+	materno VARCHAR(30),
+	nombres VARCHAR(50),
+	celular INT NOT NULL,
+	direccion VARCHAR(100),
+	profesion VARCHAR(20),
+	fechaNacimiento DATE,
+	estado BIT NOT NULL,
+	fechaCreacion DATETIME NOT NULL,
+	fechaModificacion DATETIME NOT NULL,
+	ultimoUsuario INT NOT NULL
+);
+
+--Creamos la Tabla Administrativo
+CREATE TABLE Administrativo(
+	ciPersona INT PRIMARY KEY NOT NULL,
+	usuario VARCHAR(50) NOT NULL,
+	contrasena VARCHAR(256) NOT NULL,
+	cargo VARCHAR(30) NOT NULL,
+	nivel TINYINT NOT NULL,
+	FOREIGN KEY (ciPersona) REFERENCES Persona(ci)
+);
+
+--Creamos la Tabla Estudiante
+CREATE TABLE Estudiante(
+	ciPersona INT PRIMARY KEY NOT NULL,
+	FOREIGN KEY (ciPersona) REFERENCES Persona(ci)
+);
+
+--Creamos la Tabla Docente
+CREATE TABLE Docente(
+	ciPersona INT PRIMARY KEY NOT NULL,
+	usuario VARCHAR(50) NOT NULL,
+	contrasena VARCHAR(256) NOT NULL,
+	nivel TINYINT NOT NULL,
+	FOREIGN KEY (ciPersona) REFERENCES Persona(ci)
+);
+
+--Creamos la Tabla Curso
+CREATE TABLE Curso(
+	idCurso INT PRIMARY KEY NOT NULL IDENTITY(1001,1),
+	nombre VARCHAR(200) NOT NULL,
+	tipo VARCHAR(50) NOT NULL,
+	cargaHoraria INT,
+	descripcion VARCHAR(100) NOT NULL,
+	horario VARCHAR(100) NOT NULL,
+	costo INT NOT NULL,
+	ciDocente INT NOT NULL,
+	estado BIT NOT NULL,
+	fechaCreacion DATETIME NOT NULL,
+	fechaModificacion DATETIME NOT NULL,
+	ultimoUsuario INT NOT NULL,
+	fechaInicio DATE NOT NULL,
+	FOREIGN KEY (ciDocente) REFERENCES Docente(ciPersona)
+);
+
+--Creamos la Tabla Inscripción
+CREATE TABLE Inscripcion(
+	idInscripcion INT PRIMARY KEY NOT NULL IDENTITY(1,1),
+	fechaHora DATETIME NOT NULL,
+	pago SMALLINT,
+	ciEstudiante INT NOT NULL,
+	ciAdministrativo INT NOT NULL,
+	idCurso INT NOT NULL,
+	estado BIT NOT NULL,
+	fechaCreacion DATETIME NOT NULL,
+	fechaModificacion DATETIME NOT NULL,
+	ultimoUsuario INT NOT NULL,
+	FOREIGN KEY (ciEstudiante) REFERENCES Estudiante(ciPersona),
+	FOREIGN KEY (ciAdministrativo) REFERENCES Administrativo(ciPersona),
+	FOREIGN KEY (idCurso) REFERENCES Curso(idCurso)
+);
+
+--Lista de Administrativos
+SELECT * 
+FROM Administrativo
+
+--Mostrar el CI el Administrativo que tiene el usuario ABD y contraseña 123
+SELECT ciPersona
+FROM Administrativo
+WHERE usuario LIKE'ABC' AND contrasena LIKE '123'
+
+--Averiguar una funcion C# que encripte contraseñas en 256 caracteres o bits
+
+--Agregar Persona
+SET DATEFORMAT 'DMY';
+INSERT INTO Persona VALUES
+(11223344,'quelali','villca','rodrigo',78945612,'Z. colon','informática','01-10-1998',1,GETDATE(),GETDATE(),9961393),
+(44332211,'callisaya','apaza','hilda',74561230,'Z. colon','informática','11-11-1995',1,GETDATE(),GETDATE(),9961393),
+(2435678,'sarmiento','martinez','wendy',76543210,'Z. colon','informática','21-01-1992',1,GETDATE(),GETDATE(),9961393),
+(12341234,'sirpa','choque','jimmy',79865321,'Z. colon','informática','03-12-1993',1,GETDATE(),GETDATE(),9961393)
+
+
+--Agregar Administrativo
+INSERT INTO Administrativo 
+VALUES
+(123456789,'mtg-050199','123','docente',6),
+(11223344,'qvr-011098','123','docente',6),
+(12345678,'mtg-071195','123','docente',6),
+(12312312,'cah-111195','123','docente',6),
+(3216546,'scj-120593','123','docente',6);
+
+INSERT INTO Docente 
+VALUES
+(12345678,'mtg-111195','ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f',6) ,
+(11223344,'qvr-011098','4f9f10b304cfe9b2b11fcb1387f694e18f08ea358c7e9f567434d3ad6cbd7fc4',6),
+(1231232,'cah-111195','5e8a8f8a0333e14986a064a0b550bcc857521a31ae75d72868c970256d18c1f0',6),
+(2435678,'smw-110593','653723ded18e142a09a2a2b56e43d43a22dfd23882d9f7b98b4e71caac221a7e',6),
+(3216546,'scj-120593','f1481ecc94114bb2c9b22f658031c58c6b335a919e5826c5923d9fb952bd6b97',6);
+
+SELECT * FROM Persona;
+SELECT * FROM Docente;
+SELECT * FROM Administrativo;
+--Eliminar el registro del administrador del sistema
+DELETE
+FROM Persona
+WHERE ci = 12990053
+
+--Devolver el NOMBRE COMPLETO en un solo dato segun el CI
+SELECT CONCAT(nombres, ' ' , paterno, ' ' , materno) AS NombreCompleto
+FROM Persona
+WHERE ci = '12990053'
+
+--Devolver el NIVEL segun el CI
+SELECT nivel
+FROM Administrativo
+WHERE ciPersona = '12990053'
+
+--Lista de Docentes
+SELECT * 
+FROM Persona
+
+--Mostrar el ci y el nombre completo (en una sola columna) de los docentes 
+--que tengan dentro de su nombre o paterno o materno la letra E
+SELECT p.ci, CONCAT(nombres, ' ' , paterno, ' ' , materno) AS Docente
+FROM Persona p, Administrativo a
+WHERE p.ci = a.ciPersona AND a.nivel = 6 AND (p.nombres LIKE '%e%' 
+OR p.paterno LIKE '%e%' OR p.materno LIKE '%e%')
+
+--Tarea registrar a todos los docentes de sistemas en la Base de Datos
+--Agregar Curso
+
+
+SELECT * FROM Curso;
+SELECT * FROM Persona;
+
+--Mostrar TODOS los CURSOS con los campos: NOMBRE, TIPO, CARGAHORARIA, HORARIO, COSTO, NOMBRE COMPLETO DEL DOCENTE QUE DICTARÁ EL CURSO
+SELECT UPPER(c.nombre) AS 'Curso',
+		UPPER(c.tipo) AS 'Tipo', 
+		c.fechaInicio AS 'Inicio' ,
+		UPPER (CONCAT(p.nombres, ' ' , p.paterno, ' ' , p.materno)) AS 'Docente',
+		c.costo AS 'Costo',
+		c.cargaHoraria AS 'Horas',
+	   UPPER(c.horario) AS 'Horario'
+FROM Curso c INNER JOIN Persona p ON p.ci = c.ciDocente
+ORDER BY c.fechaCreacion DESC;
+-- 0 -> fechaInicio		1 -> fechaCreacion
+
+SET DATEFORMAT 'DMY';
+INSERT INTO Curso
+(nombre,tipo,cargaHoraria,descripcion,horario,costo,ciDocente,estado,fechaCreacion,fechaModificacion,ultimoUsuario,fechaInicio)
+VALUES ('costura','taller',20,'curso de prueba','lunes y viernes',50,2435678,1,GETDATE(),GETDATE(),9961393,'01-08-2023'),
+('construccion','taller',30,'curso de prueba','lunes y viernes',50,3216546,1,GETDATE(),GETDATE(),9961393,'01/08/2023'),
+('gastronomia','seminario',40,'seminario de nutrientes','martes y viernes',150,1231232,1,GETDATE(),GETDATE(),9961393,'01/08/2023'),
+('botstrap avanzado','curso de capacitacion',20,'curso avanzado','miercoles y viernes',250,12345678,1,GETDATE(),GETDATE(),9961393,'01/08/2023'),
+('php de primer nivel','taller',50,'taller prueba','jueves y viernes',50,11223344,1,GETDATE(),GETDATE(),9961393,'01/08/2023'),
+('reposteria','curso de capacitacion',60,'salteñas y pasteles','lunes y viernes',60,12312312,1,GETDATE(),GETDATE(),9961393,'01/08/2023');
+
+SET DATEFORMAT 'DMY';
+INSERT INTO Curso
+VALUES ('construccion','taller',20,'curso de prueba','lunes y viernes',50,11223344,1,GETDATE(),GETDATE(),9961393,'01/08/2023');
+
+SET DATEFORMAT 'DMY';
+INSERT INTO Curso
+VALUES ('construccion','taller',20,'curso de prueba','lunes y viernes',50,11223344,1,GETDATE(),GETDATE(),9961393,'01/08/2023');
+
+SELECT * FROM Curso;
+
+
+--Mostrar el ci y el nombre completo (en una sola columna) de los docentes 
+--que tengan dentro de su nombre o paterno o materno la letra E
+SELECT p.ci AS 'C.I.', CONCAT(nombres, ' ' , paterno, ' ' , materno) AS 'Docente'
+FROM Persona p, docente d
+WHERE p.ci = d.ciPersona AND (p.nombres LIKE '%v%' 
+OR p.paterno LIKE '%v%' OR p.materno LIKE '%v%')
+
+
+--cambiar a entero los tipos de datos numericos de la tabla CURSO
+ALTER TABLE Curso
+ALTER COLUMN cargaHoraria int; 
+
+ALTER TABLE Curso
+ALTER COLUMN costo int; 
+
+--Mostrar los ULTIMOS CURSOS DEL MES para poder inscribir estudiantes
+SELECT UPPER(c.nombre) AS 'Curso',
+		UPPER(c.tipo) AS 'Tipo', 
+		c.fechaInicio AS 'Inicio' ,
+		UPPER (CONCAT(p.nombres, ' ' , p.paterno, ' ' , p.materno)) AS 'Docente',
+		c.costo AS 'Costo',
+		c.cargaHoraria AS 'Horas',
+	   UPPER(c.horario) AS 'Horario'
+FROM Curso c INNER JOIN Persona p ON p.ci = c.ciDocente
+WHERE c.fechaInicio >= DATEADD(DAY, -14, GETDATE())
+ORDER BY c.fechaInicio DESC;
+
+--seleccionar el costo de un curso x segun ID
+SELECT TOP(1)costo 
+FROM Curso
+WHERE nombre = 'CURSO DE FLUTTER';

@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\bin\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\bin\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\bin\Debug\Entidades.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\bin\Debug\Entidades.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\Entidades\obj\Debug\Entidades.pdb

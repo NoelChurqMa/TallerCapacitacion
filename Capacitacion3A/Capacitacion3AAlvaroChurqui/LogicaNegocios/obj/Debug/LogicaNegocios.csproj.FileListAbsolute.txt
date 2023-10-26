@@ -1,0 +1,33 @@
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\LogicaNegocios.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\LogicaNegocios.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\AccesoDatos.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\AccesoDatos.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CopyComplete
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\LogicaNegocios.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\LogicaNegocios.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\AccesoDatos.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\AccesoDatos.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\LogicaNegocios.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\LogicaNegocios.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\AccesoDatos.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\Entidades.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\AccesoDatos.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\bin\Debug\Entidades.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.csproj.CopyComplete
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\LogicaNegocios\obj\Debug\LogicaNegocios.pdb

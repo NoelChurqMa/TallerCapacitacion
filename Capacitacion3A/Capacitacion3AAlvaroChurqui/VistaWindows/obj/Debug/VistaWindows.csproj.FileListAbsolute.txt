@@ -1,0 +1,63 @@
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.exe.config
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.exe
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\LogicaNegocios.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\AccesoDatos.dll
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\LogicaNegocios.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\AccesoDatos.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormAdministrativos.resources
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormCursos.resources
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormLogin.resources
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormMenuPrincipal.resources
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.Properties.Resources.resources
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.CopyComplete
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.exe
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.exe.config
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.exe
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\Entidades.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\LogicaNegocios.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\AccesoDatos.dll
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\Entidades.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\LogicaNegocios.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\AccesoDatos.pdb
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormAdministrativos.resources
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormCursos.resources
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormLogin.resources
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormMenuPrincipal.resources
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.exe
+C:\Users\ASUS\Desktop\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.pdb
+C:\Users\ASUS\Desktop\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormInscripcion.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.exe.config
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.exe
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\VistaWindows.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\Entidades.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\LogicaNegocios.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\AccesoDatos.dll
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\Entidades.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\LogicaNegocios.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\bin\Debug\AccesoDatos.pdb
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormAdministrativos.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormCursos.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormInscripcion.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormListaInscritos.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormLogin.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.FormMenuPrincipal.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.Properties.Resources.resources
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.csproj.CopyComplete
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.exe
+C:\Users\hp\Desktop\3A\Programacion III\NuevaCapacitacion\Capacitacion3A\Capacitacion3AAlvaroChurqui\VistaWindows\obj\Debug\VistaWindows.pdb
