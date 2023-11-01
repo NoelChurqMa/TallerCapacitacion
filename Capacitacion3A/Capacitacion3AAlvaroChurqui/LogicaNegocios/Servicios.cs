@@ -177,6 +177,32 @@ namespace LogicaNegocios
             Manager objManager = new Manager();
             return objManager.obtieneCursos();
         }
+       //Mostrar Lista Inscritos
+        public DataTable mostrarListaInscritos(short sw, string dato)
+        {
+            Manager objManager = new Manager();
+            switch (sw)
+            {
+                case 1:
+                    // Lista por curso
+                    return objManager.obtieneInscritosPorCurso(dato);
+                case 2:
+                    // Lista por genero
+                    return objManager.obtieneInscritosPorCurso(dato);
+                case 3:
+                    // Lista por fecha
+                    return objManager.obtieneInscritosPorCurso(dato);
+                case 4:
+                    // Lista por pago
+                    return objManager.obtieneInscritosPorCurso(dato);
+                case 5:
+                    // Lista por tipo de curso
+                    return objManager.obtieneInscritosPorCurso(dato);
+                default:
+                    return null;
+            }
+           
+        }
         #endregion
 
         #region Mètodos AGREGAR

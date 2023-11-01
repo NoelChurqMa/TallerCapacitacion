@@ -199,6 +199,12 @@ namespace AccesoDatos
             return obtieneTabla(vConsulta);
         }
 
+        //Obtiene inscritos de un curso
+        public DataTable obtieneInscritosPorCurso(string curso)
+        {
+            string vConsulta = "SELECT p.ci AS 'C.I.',UPPER(p.paterno) AS 'Paterno', UPPER(p.materno) AS 'Materno', UPPER(p.nombres) AS 'Nombres', p.celular AS 'Celular', i.fechaHora AS 'Fecha de Inscripcion', c.costo AS 'Costo del curso',i.pago AS 'Pago realizado' FROM Persona p INNER JOIN Inscripcion i ON p.ci = i.ciEstudiante INNER JOIN Curso c ON c.idCurso = i.idCurso WHERE c.nombre LIKE '"+ curso +"' ORDER BY p.paterno; ";
+            return obtieneTabla(vConsulta);
+        }
         #endregion
 
         #region Metodos publicos INSERTAR REGISTROS 

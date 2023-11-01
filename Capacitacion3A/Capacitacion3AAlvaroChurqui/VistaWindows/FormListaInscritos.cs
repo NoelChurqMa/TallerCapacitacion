@@ -26,7 +26,14 @@ namespace VistaWindows
             if (cmbTipoReporte.Text == "Por CURSO")
             {
                 groupBoxPorCurso.Visible = true;
+                sw = 1;
             }
+            /*groupBoxPorGenero.Visible = false;
+             * if (cmbTipoReporte.Text == "Por Genero")
+            {
+                groupBoxPorGenero.Visible = true;
+                sw = 2;
+            }*/
         }
 
         private void cmbCurso_SelectedIndexChanged(object sender, EventArgs e)
@@ -37,10 +44,44 @@ namespace VistaWindows
 
         private void FormListaInscritos_Load(object sender, EventArgs e)
         {
-            Servicios objServicios = new Servicios();
+            try
+            {
+                Servicios objServicios = new Servicios();
 
-            cmbCurso.DataSource = objServicios.mostrarCursos();
-            cmbCurso.DisplayMember = "Nombre";
+                cmbCurso.DataSource = objServicios.mostrarCursos();
+                cmbCurso.DisplayMember = "Nombre";
+            }
+            catch { }
+           
+           
+        }
+        public short sw = 0;
+        private void btnGenerarReporte_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Servicios objServicios = new Servicios();
+                dataListaInscritos.DataSource = null;
+                dataListaInscritos.Refresh();
+                string dato;
+                switch (sw)
+                {
+                    case 1:
+                        // Lista por curso
+                        dato = cmbCurso.Text.ToLower();
+                        break;
+
+                    default:
+                        dato = null;
+                        break;
+                }
+                dataListaInscritos.DataSource = objServicios.mostrarListaInscritos(sw, dato);
+                dataListaInscritos.Refresh();
+            }
+            catch 
+            {
+            }
+            
         }
     }
 }

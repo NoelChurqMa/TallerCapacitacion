@@ -38,8 +38,12 @@ namespace VistaWindows
             this.label2 = new System.Windows.Forms.Label();
             this.groupBoxPorCurso = new System.Windows.Forms.GroupBox();
             this.cmbCurso = new System.Windows.Forms.ComboBox();
+            this.btnGenerarReporte = new System.Windows.Forms.Button();
+            this.btnGenerarPDF = new System.Windows.Forms.Button();
+            this.dataListaInscritos = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.groupBoxPorCurso.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataListaInscritos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -120,7 +124,7 @@ namespace VistaWindows
             this.groupBoxPorCurso.Controls.Add(this.cmbCurso);
             this.groupBoxPorCurso.Location = new System.Drawing.Point(418, 123);
             this.groupBoxPorCurso.Name = "groupBoxPorCurso";
-            this.groupBoxPorCurso.Size = new System.Drawing.Size(743, 100);
+            this.groupBoxPorCurso.Size = new System.Drawing.Size(743, 67);
             this.groupBoxPorCurso.TabIndex = 30;
             this.groupBoxPorCurso.TabStop = false;
             this.groupBoxPorCurso.Text = "Selccionar Curso";
@@ -131,15 +135,50 @@ namespace VistaWindows
             this.cmbCurso.FormattingEnabled = true;
             this.cmbCurso.Location = new System.Drawing.Point(6, 25);
             this.cmbCurso.Name = "cmbCurso";
-            this.cmbCurso.Size = new System.Drawing.Size(398, 28);
+            this.cmbCurso.Size = new System.Drawing.Size(721, 28);
             this.cmbCurso.TabIndex = 0;
             this.cmbCurso.SelectedIndexChanged += new System.EventHandler(this.cmbCurso_SelectedIndexChanged);
+            // 
+            // btnGenerarReporte
+            // 
+            this.btnGenerarReporte.Location = new System.Drawing.Point(424, 196);
+            this.btnGenerarReporte.Name = "btnGenerarReporte";
+            this.btnGenerarReporte.Size = new System.Drawing.Size(233, 32);
+            this.btnGenerarReporte.TabIndex = 1;
+            this.btnGenerarReporte.Text = "Generar Reporte";
+            this.btnGenerarReporte.UseVisualStyleBackColor = true;
+            this.btnGenerarReporte.Click += new System.EventHandler(this.btnGenerarReporte_Click);
+            // 
+            // btnGenerarPDF
+            // 
+            this.btnGenerarPDF.Location = new System.Drawing.Point(932, 196);
+            this.btnGenerarPDF.Name = "btnGenerarPDF";
+            this.btnGenerarPDF.Size = new System.Drawing.Size(213, 32);
+            this.btnGenerarPDF.TabIndex = 2;
+            this.btnGenerarPDF.Text = "PDF";
+            this.btnGenerarPDF.UseVisualStyleBackColor = true;
+            // 
+            // dataListaInscritos
+            // 
+            this.dataListaInscritos.AllowUserToAddRows = false;
+            this.dataListaInscritos.AllowUserToDeleteRows = false;
+            this.dataListaInscritos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataListaInscritos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataListaInscritos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataListaInscritos.Location = new System.Drawing.Point(39, 302);
+            this.dataListaInscritos.Name = "dataListaInscritos";
+            this.dataListaInscritos.ReadOnly = true;
+            this.dataListaInscritos.Size = new System.Drawing.Size(1122, 359);
+            this.dataListaInscritos.TabIndex = 31;
             // 
             // FormListaInscritos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.btnGenerarPDF);
+            this.Controls.Add(this.dataListaInscritos);
+            this.Controls.Add(this.btnGenerarReporte);
             this.Controls.Add(this.groupBoxPorCurso);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cmbTipoReporte);
@@ -153,6 +192,7 @@ namespace VistaWindows
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBoxPorCurso.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataListaInscritos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,5 +209,8 @@ namespace VistaWindows
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBoxPorCurso;
         private System.Windows.Forms.ComboBox cmbCurso;
+        private System.Windows.Forms.Button btnGenerarPDF;
+        private System.Windows.Forms.Button btnGenerarReporte;
+        private System.Windows.Forms.DataGridView dataListaInscritos;
     }
 }
